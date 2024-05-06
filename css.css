@@ -1,0 +1,96 @@
+* {
+    margin: 0;
+    font-family: Nunito Sans, sans-serif;
+    font-size: 14px;
+    line-height: 26.73px;
+    font-weight: 400;
+    color: #FFFFFF;
+}
+body {
+    background-color: #131313;
+}
+
+h1, h2 {
+    font-family: Yeseva One, serif;
+    color: #E3B873;
+    text-transform: uppercase;
+}
+
+.layout {
+    display: flex;
+    gap: 50px;
+    margin: 10%;
+    width: 80%;
+    height: 552.28px;
+}
+
+h1 {
+    font-size: 27px;
+    line-height: 37.42px;
+    letter-spacing: -0.07em;
+    margin-top: 77px;
+}
+
+h2 {
+    font-size: 18px;
+    line-height: 24.95px;
+}
+
+.info__description {
+    line-height: 26.73px;
+    text-align: left;
+    margin-top: 34px;
+    margin-bottom: 42px;
+}
+
+.info__parameters {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 34px;
+}
+
+.info__parameters__element {
+    display: flex;
+    flex-direction: column;
+    gap: 9px;
+    min-width: 156px;
+}
+
+.info__parameters__element > p {
+    font-size: 13px;
+    line-height: 21.28px;
+}
+
+.city {
+    white-space: pre-line;
+}
+
+.slider {
+    display: flex;
+    gap: 17px;
+    margin-top: 75px;
+}
+
+.slider > img, li {
+    cursor: pointer;
+}
+
+ul {
+    display: flex;
+    gap: 60px;
+    list-style: none;
+    padding: 0;
+    margin-bottom: 45px;
+}
+
+li {
+    color: #FFFFFF4D;
+    font-family: Yeseva One, serif;
+    text-transform: uppercase;
+}
+
+li:hover, .active {
+    color: #E3B873;
+    border-bottom: #E3B873 solid 1px;
+    padding-bottom: 5px;
+}
